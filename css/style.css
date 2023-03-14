@@ -1,0 +1,31 @@
+#postsContainer {
+    padding: 0px 100px 0px 100px;
+}
+
+.card-header .btn {
+    font-size: 0.6em;
+    padding: 0.4em;
+    margin: 0.4em;
+}
+
+.edit-div {
+    text-align: right;
+}
+
+.row {
+    margin: 0%;
+}
+
+label {
+    font-weight: bold;
+}
+
+#update_post_title, #update_post_body, #add_post_title, #add_post_body {
+    margin: 2%;
+}
+
+@media screen and (max-width: 1000px) {
+    #postsContainer {
+        padding: 0;
+    }
+}
